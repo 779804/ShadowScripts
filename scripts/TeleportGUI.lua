@@ -275,7 +275,6 @@ local function FGRQEO_fake_script() -- TextButton.LocalScript
 	script.Parent.MouseButton1Down:Connect(function()
 		local text = script.Parent.Parent.TextBox.Text
 		local plr = nil
-		print(string.len(text))
 		if game:GetService("Players"):FindFirstChild(text) then
 			plr = game:GetService("Players"):FindFirstChild(text)
 			game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = plr.Character.HumanoidRootPart.CFrame
