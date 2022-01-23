@@ -286,7 +286,6 @@ local function FGRQEO_fake_script() -- TextButton.LocalScript
 				end
 			end
 			if plr ~= nil then
-				plr = game:GetService("Players"):FindFirstChild(text)
 				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = plr.Character.HumanoidRootPart.CFrame
 			else
 				game:GetService("StarterGui"):SetCore("SendNotification", {
